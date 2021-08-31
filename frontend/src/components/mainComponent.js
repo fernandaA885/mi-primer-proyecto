@@ -7,11 +7,12 @@ import Teacher from './teacherComponent';
 import Admin from './adminComponent';
 import Header from './headerComponent';
 import HomePage from './homepageComponent';
+import AboutUs from './aboutusComponent';
 import Footer  from './footerComponent';
 
 
 
-class mainComponent extends Component {
+class MainComponent extends Component {
   	constructor(props){
 		  super(props)
 	  }
@@ -23,10 +24,11 @@ class mainComponent extends Component {
 				<Route path="/admin" component={Admin}/>
 				<Route path="/student" component={Student}/>
 				<Route path="/teacher" component={Teacher}/>
+				<Route path="/aboutus" component={AboutUs}/>
         <Footer/>
       		</div>
     	);
   	};
 }
 
-export default mainComponent;
+export default MainComponent;

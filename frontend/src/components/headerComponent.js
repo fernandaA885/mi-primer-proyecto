@@ -19,22 +19,22 @@ class headerComponent extends Component {
     					</button>
     				<div className="collapse navbar-collapse" id="navbarSupportedContent">
       					<ul className="navbar-nav me-auto mb-2 mb-lg-0">
-        					<li class="nav-item">
+        					<li className="nav-item">
 									<Link className="navbar-brand" to="/admin">Administrador</Link>
         					</li>
-        					<li class="nav-item">
+        					<li className="nav-item">
 									<Link className="navbar-brand" to="/student">Estudiantes</Link>
         					</li>
-        					<li class="nav-item dropdown">
+        					<li className="nav-item dropdown">
 									<Link className="navbar-brand" to="/teachers">profesores</Link>
         					</li>
-        					<li class="nav-item">
-									<Link className="navbar-brand" to="/">Sobre nosotros</Link>
+        					<li className="nav-item">
+									<Link className="navbar-brand" to="/aboutus">Sobre nosotros</Link>
         					</li>
       					</ul>
-      					<form class="d-flex">
-        					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        					<button class="btn btn-outline-success" type="submit">Search</button>
+      					<form className="d-flex">
+        					<input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        					<button className="btn btn-outline-success" type="submit">Search</button>
       					</form>
     				</div>
   				</div>

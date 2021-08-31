@@ -1,13 +1,22 @@
 import React, { Component } from 'react'
 
-class homepageComponent extends Component {
-  render() {
-    return (
-      <div>
-        homepage component
-      </div>
+class HomepageComponent extends Component {
+    
+    render() {
+        return (
+            <div class="container">
+                <div class="row">
+                <div class="col-sm-8">col-sm-8</div>
+                <div class="col-sm-4">col-sm-4</div>
+            </div>
+            <div class="row">
+                <div class="col-sm">col-sm</div>
+                <div class="col-sm">col-sm</div>
+                <div class="col-sm">col-sm</div>
+            </div>
+</div>
     )
   }
 }
 
-export default homepageComponent
+export default HomepageComponent

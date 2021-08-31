@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class adminComponent extends Component {
+class AdminComponent extends Component {
   render() {
     return (
       <div>
@@ -9,3 +9,5 @@ export default class adminComponent extends Component {
     )
   }
 }
+
+export default AdminComponent;
